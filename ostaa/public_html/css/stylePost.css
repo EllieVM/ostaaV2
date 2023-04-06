@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+    font-family: Impact;
+}
+body {
+    background-color: cadetblue;
+}
+h1 {
+    font-size: 48px;
+}
+input, label {
+    margin: 15px;
+    font-size: 20px;
+}

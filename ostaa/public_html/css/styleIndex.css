@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    font-family: Impact;
+}
+body {
+    overflow-y: scroll;
+    background-color: cadetblue;
+}
+h1 {
+    font-size: 48px;
+}
+input {
+    font-size: 24px;
+    margin: 10px;
+}
+#failedRes {
+    color: rgb(255, 61, 61);
+    -webkit-text-stroke: 0.25px whitesmoke;
+}

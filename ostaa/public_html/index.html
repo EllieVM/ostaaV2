@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ostaa</title>
+        <link rel="stylesheet" type="text/css" href="./css/styleIndex.css">
+        <script src="./client.js"></script>
+    </head>
+    <body>
+        <div id="login">
+            <h1>LOGIN</h1>
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username"><br>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password"><br>
+                <input onclick="login()" type="button" id='logButton' value="Login">
+            <p id="failedRes"></p>
+        </div>
+        <div id="createAccount">
+            <h1>CREATE ACCOUNT</h1>
+                <label for="newUser">Username</label>
+                <input type="text" id="newUser" name="newUser"><br>
+                <label for="newPass">Password</label>
+                <input type="text" id="newPass" name="newPass"><br>
+                <input onclick="createAccount()" type="button" id='account' value="Add User">
+        </div>
+    </body>
+</html>
